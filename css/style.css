@@ -1,0 +1,303 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquot, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+body{
+    font-family: Microsoft JhengHei;
+
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.header-gray{
+    background-color: #f6f6f6;
+    height: 28px;
+}
+.socialmedia {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    height:28px;
+    
+}
+
+
+.socialmedia-info {
+    
+    font-size:  16px;
+}
+
+.socialmedia-info img{
+    height:16px;
+}
+.socialmedia-info .fb:link,.fb:visited{
+    
+    color: #4460a0
+}
+
+.socialmedia-info .twitter:link,.twitter:visited{
+    
+    color: #00aaec;
+}    
+.socialmedia span{
+    color: #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-white{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    height: 52px;
+    
+}
+
+.menu a{
+    display: block;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #00cc99;
+    
+}
+.menu a:hover{
+    border-bottom: 4px solid #00cc99;
+}
+.menu .home{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu .product{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.menu .contact{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.banner{
+    height: 346px;
+    margin-top: 2px;
+    
+}
+
+.course-list{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+
+}
+
+.course-list img{
+    padding-top: 24px;
+    padding-bottom: 8px;
+    
+}
+.course-list h2{
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.course-list li{
+    height: 326px;
+    width: 303px;
+    box-shadow: 0px 1px 2px #a3a1a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.course-list p{
+    margin-top: 10px;
+    width: 260px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+
+}
+
+.title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.table{
+    width: 840px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    text-align: left;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    border-top: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.colored{
+    color: #11ac86;
+}
+.background{
+    background-image: url(../img/background.png);
+    height:404px;
+    margin-bottom: 25px;
+}
+.form{
+    
+    height:404px;
+    width: 1000px;
+   
+}
+
+.form h2{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    
+}
+
+.content {
+    width: 460px;
+    height: 245px;
+}
+
+.form form{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    color: #ffffff;
+}
+.form input,textarea{
+    border: 0px;
+    border-radius:3px;
+}
+
+.right-section{
+    flex-direction: column;
+    display: flex;
+    width: 460px;
+    height: 245px;
+    border-radius:10px;
+    position: relative;
+}
+
+.right-section .text{
+    height: 30px;
+    margin-bottom: 14px;
+}
+
+.right-section span{
+    padding-bottom: 5px;
+}
+
+.right-section .submit{
+    height: 30px;
+    width: 70px;
+    background-color:#00cc99;
+    color: #ffffff;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer img{
+    height: 36px;
+    width: 170px;
+    
+}
+
+.mail span,.phone span{
+    color: #eb73aa;
+}
+
+.mail,.phone{
+    display: flex;
+    line-height: 1.5;
+}

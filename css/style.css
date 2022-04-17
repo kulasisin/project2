@@ -106,10 +106,6 @@ body{
 .menu{
     display: flex;
     height: 52px;
-    margin-bottom: 5px;
-    z-index: 9999;
-    
-    
     
 }
 
@@ -121,10 +117,9 @@ body{
     color: #00cc99;
     
 }
-.menu>li>a:hover{
+.menu a:hover{
     border-bottom: 4px solid #00cc99;
 }
-
 .menu .home{
     padding-left: 10px;
     padding-right: 10px;
@@ -133,7 +128,6 @@ body{
 .menu .product{
     padding-left: 33px;
     padding-right: 33px;
-    
 }
 
 .menu .contact{
@@ -141,45 +135,12 @@ body{
     padding-right: 16px;
 }
 
-.menu ul{
-    display: none; 
-    
-}
-/*.menu>li:hover ul{
-    display: block;
-    background-color: #fff;
-    
-    
-}
-*/
-
-
-.dropdown {
-    background-color: #00cc99;
-    text-align: center;
-    
-}
-.dropdown a{
-    color: #fff;
-}
-
-.dropdown a:hover {
-    background-color: #fff;
-    color:#00cc99;
-}
-.swiper-container {
+.banner{
     height: 346px;
-    margin-top: 6px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    margin-top: 2px;
+    
 }
 
-.swiper-slide {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
 .course-list{
     margin-top: 65px;
     display: flex;
@@ -339,25 +300,4 @@ body{
 .mail,.phone{
     display: flex;
     line-height: 1.5;
-}
-
-
-.top a {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    
-    
-}
-
-.arrow{
-    color:#00cc99;
-    font-size: 40px;    
-    
-}
-
-.top :hover{    
-    color: rgb(47, 100, 67);
 }
